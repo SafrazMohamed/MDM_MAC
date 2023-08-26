@@ -14,3 +14,14 @@ cd /tmp
 /bin/rm /tmp/"${pkgfile}"
 
 exit 0
+
+#https://docs.microsoft.com/en-us/deployoffice/mac/deployment-options-for-office-for-mac
+
+#https://docs.microsoft.com/en-us/deployoffice/mac/deployment-guide-for-office-for-mac
+
+#exceldl="https://go.microsoft.com/fwlink/?linkid=525135"
+#outlookdl="https://go.microsoft.com/fwlink/?linkid=525137"
+#powerpointdl="https://go.microsoft.com/fwlink/?linkid=525136"
+#worddl="https://go.microsoft.com/fwlink/?linkid=525134"
+#rdpdl="https://go.microsoft.com/fwlink/?linkid=868963"
+#autoupdatedl="https://go.microsoft.com/fwlink/?linkid=830196"
