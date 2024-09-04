@@ -1,0 +1,39 @@
+{
+    "title": "Google Chrome Extensions (com.google.Chrome)",
+    "description": "Manage extensions in Google Chrome",
+    "properties": {
+      "ExtensionInstallForcelist": {
+        "title": "Extension Install Whitelist",
+        "description": "Allow only specific extensions to be installed by adding their IDs.",
+        "property_order": 6,
+        "type": "array",
+        "items": {
+          "title": "Extension ID",
+          "default": "<extension ID>",
+          "type": "string"
+        } 
+      },
+      "ExtensionInstallAllowlist": {
+        "title": "Extension Install Whitelist",
+        "description": "Allow only specific extensions to be installed by adding their IDs.",
+        "property_order": 6,
+        "type": "array",
+        "items": {
+          "title": "Extension ID",
+          "default": "<extension ID>",
+          "type": "string"
+        }
+      },
+      "ExtensionInstallBlocklist": {
+        "title": "Extension Install Blocklist",
+        "description": "Block specific extensions by adding their IDs.",
+        "property_order": 7,
+        "type": "array",
+        "items": {
+          "title": "Extension ID",
+          "default": "*",
+          "type": "string"
+        }
+      }
+    }
+  }
